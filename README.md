@@ -1,4 +1,8 @@
-Fuel PHP - Brad Bohen Will Delete This Page
+##About
+
+This is the blog/portfolio/whatever-else site of Brad Bohen a recent graduate of Full Sail University, It is built with Fuel Php.
+
+##Fuel PHP
 
 * Version: 1.5
 * [Website](http://fuelphp.com/)
