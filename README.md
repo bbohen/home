@@ -1,4 +1,4 @@
-Fuel PHP - Brad Bohen Home PageP
+Fuel PHP - Brad Bohen Will Delete This Page
 
 * Version: 1.5
 * [Website](http://fuelphp.com/)
