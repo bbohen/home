@@ -1,6 +1,6 @@
 ##About
 
-This is the blog/portfolio/whatever-else site of Brad Bohen a recent graduate of Full Sail University, It is built with Fuel Php. Cheese.
+This is the blog/portfolio/whatever-else site of Brad Bohen a recent graduate of Full Sail University, It is built with Fuel Php. Asparagus.
 
 ##Fuel PHP
 
