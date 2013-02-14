@@ -1,6 +1,6 @@
 ##About
 
-This is the blog/portfolio/whatever-else site of Brad Bohen a recent graduate of Full Sail University, It is built with Fuel Php. tomatoes and fish.
+This is the blog/portfolio/whatever-else site of Brad Bohen a recent graduate of Full Sail University, It is built with Fuel Php. changing this again.
 
 ##Fuel PHP
 
