@@ -17,4 +17,12 @@
 
 return array(
 
+	'default_timezone' => 'America/New_York',
+	
+	'always_load'  => array(
+		'packages'  => array(
+			'casset'
+		),
+	),
+
 );
