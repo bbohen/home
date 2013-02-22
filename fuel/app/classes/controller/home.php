@@ -4,10 +4,12 @@ class Controller_Home extends Controller_App
 {
 	public function action_index()
 	{
-		//$this->template->content = View::forge('utility/construction');
-		// dont need template for construction
+		$this->template->content = View::forge('home/index', array(
+			'projects' => Model_Project::get_projects()
+		));
 
-		return Response::forge(View::forge('utility/construction'));
+		//no template for construction
+		//return Response::forge(View::forge('utility/construction'));
 	}
 
 	public function action_hello()

@@ -6,6 +6,7 @@
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<meta name="robots" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 
 		<?= Casset::render_css() ?>
 
@@ -13,11 +14,14 @@
 	</head>
 
 	<body>
-		<?= $nav ?>
-	  	<div id="wrapper">
-			<?= isset($content) ? $content : null ?>
+		<div id="bg_wrapper">
+			<?= $nav ?>
+			  	<div class="wrapper">
+					<?= isset($content) ? $content : null ?>
+					<div class="push"></div>
+				</div>
+			<?= $footer ?>
 		</div>
-		<?= $footer ?>
 	</body>
 	<?= Casset::render_js() ?>
 </html>
