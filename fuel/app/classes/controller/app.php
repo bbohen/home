@@ -29,6 +29,8 @@ class Controller_APP extends Controller_Base
 	private function _init_assets()
 	{
 		Casset::css('main.css');
+		Casset::js('responsiveslides.min.js');
 		Casset::js('main.js');
+
 	}
 }

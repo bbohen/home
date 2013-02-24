@@ -74,12 +74,22 @@ html{
 	background-color: rgba(68,197,229,0.4);
 }
 
+#decoration{
+	width: 100%;
+	height: 8px;
+	background-color: rgba(68,197,229,0.4);
+}
+
 nav{
 	margin-bottom: 5px;
 }
 
 nav a{
 	text-decoration: none;
+}
+
+p, .box, .side_section{
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper, .nav_wrapper{
@@ -91,7 +101,7 @@ nav a{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto 4em;
+	margin: 0 auto ;
 }
 
 h1, h2, h3{
@@ -99,10 +109,15 @@ h1, h2, h3{
 }
 
 h1{
-	font-size: 38px;
+	font-size: 2.4em;
 	letter-spacing: -1px;
 	color: #353535;
-	padding-top: 10px;
+	padding-top: 12px;
+
+	-webkit-transition: all .5s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
 }
 
 h2{
@@ -146,10 +161,28 @@ h3{
 	float: left;
 }
 
+.section p{
+	padding: .5em;
+	line-height: 1.4em;
+}
+
 .side_section{
 	margin-top: 5px;
 	width: 30%;
 	float: right;
+}
+
+.tech_list{
+	padding: .5em;
+	text-align: center;
+}
+
+.tech_list li{
+	margin-top: 1em;
+}
+
+.tech_list li:first-child{
+	margin-top: .3em;
 }
 
 #largeImage{
@@ -158,41 +191,51 @@ h3{
 	/*float: left;*/
 }
 
-#thumbs { 
-	padding-top: 10px; 
-	overflow: hidden;
-	clear: both; 
+#gallery{
+	margin-bottom: 5px;
 }
 
-#thumbs img {
- padding: 4px;
- /*background-color: rgba(68,197,229,0.4);*/
- cursor: pointer;
-}
-#thumbs img {
- width: 300px;
- float: left;
- margin-right: 6px;
-}
-#description {
- padding: 10px 20px;
- position: absolute;
- top: 500px;
- height: 3em;
- width: 525px;
- margin: 5px;
-}
-#panel { position: relative; }
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
 
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
 
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
 
-
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
 
 /* Footer */
 
 #footer, .push {
 	clear: both;
-	height: 4em;
+	height: 2em;
+}
+
+#footer{
+	height: 2em;
 }
 
 /* Responsive */

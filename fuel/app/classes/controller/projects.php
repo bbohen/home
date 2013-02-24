@@ -15,6 +15,7 @@ class Controller_Projects extends Controller_App
 	{
 		//Casset::css('event.css');
 		$project = Model_Project::get_project($title);
+
 		$this->template->content = View::forge('project/details', array(
 			'project' => $project
 		));

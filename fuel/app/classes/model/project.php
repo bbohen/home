@@ -7,7 +7,8 @@ class Model_Project extends \Orm\Model
 	protected static $_properties = array( 
 		'id',
 		'title',
-		'description',
+		'about',
+		'tech',
 		'type'
 	);
 
