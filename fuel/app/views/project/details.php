@@ -1,6 +1,12 @@
 <div class="wrapper">
 	<div class="header_bar">
-		<h2><?= $project->title ?></h2>
+		<h2><a href="<?= Uri::base() ?>"><?= Asset::img('home.png'); ?></a> | <?= $project->title ?> <?php if (is_null($project->link)) {
+			
+		}elseif ($project->link == "Coming Soon") {
+			echo "| Coming Soon";
+		}else{
+			echo "| <a href=$project->link>Project Link</a>";
+		}?></h2>
 	</div>
 	<div id="gallery">
 		<ul class="rslides">

@@ -10,6 +10,7 @@ class Model_Project extends \Orm\Model
 		'about',
 		'tech',
 		'photo_count',
+		'link',
 		'type'
 	);
 

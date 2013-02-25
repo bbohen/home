@@ -1,12 +1,18 @@
 <div class="wrapper">
 	<div class="text_box">
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper elit vitae urna iaculis vehicula. Nunc vel est quis massa convallis cursus ac a urna. Curabitur nunc dolor, tincidunt ut iaculis ut, aliquam vitae purus. Morbi non tortor diam, eu placerat urna. Cras sed diam erat, scelerisque tempus erat. Nullam convallis interdum orci, eu mollis risus lobortis eget. Aenean convallis placerat magna, non convallis tortor rutrum quis. Curabitur lobortis enim pretium lorem hendrerit ultricies.</p>
+		<p>Hello there, my name is Brad Bohen. <br/> I develop and design usable, attractive web products and user experiences for the web. Please click around and check out my different projects, I will be continually updating these as I revisit past work.
+		</p>
+		<ul>
+			<li>Send me an <a href="mailto:bbohen@gmail.com">Email</a></li>
+			<li>Check out my <a href="http://www.linkedin.com/pub/bradley-bohen/59/22a/164">Linked In Profile</a></li>
+		<ul>
 	</div>
 	<?php foreach($projects as $project) : ?>
+		<a href="projects/<?= $project->title ?>" >
 		<div class="box">
-			<?= $project->title ?>
-			<?= Asset::img("projects/{$project->id}/thumb.png", array('id' => 'largeImage')) ?>
-			<?= Html::anchor("projects/{$project->title}", 'Details', array('class' => 'detail_button')) ?>
+			<?= Asset::img("projects/{$project->id}/thumb.png", array('class' => 'thumb')) ?>
+			<?= Html::anchor("projects/{$project->title}", $project->title, array('class' => 'detail_button')) ?>
 		</div>
+		</a>
 	<?php endforeach ?>
 </div>
