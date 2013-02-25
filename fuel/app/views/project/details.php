@@ -26,7 +26,6 @@
 	<div class="side_section">
 		<h3>Technology Used</h3>
 		<?php
-			
 			$step1 = explode(" ", $project->tech);
 			$keyWord = Array();
 
