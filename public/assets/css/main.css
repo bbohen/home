@@ -80,10 +80,6 @@ html{
 	background-color: rgba(68,197,229,0.4);
 }
 
-nav{
-	margin-bottom: 5px;
-}
-
 nav a{
 	text-decoration: none;
 }
@@ -153,6 +149,7 @@ h3{
 
 .header_bar{
 	background-color: rgba(68,197,229,0.4);
+	margin-top: 5px;
 }
 
 .section{
@@ -232,6 +229,10 @@ h3{
 #footer, .push {
 	clear: both;
 	height: 2em;
+}
+
+.push{
+	height: .4em;
 }
 
 #footer{

@@ -4,17 +4,11 @@
 	</div>
 	<div id="gallery">
 		<ul class="rslides">
-  			<li><?= Asset::img("projects/{$project->id}/1.png", array('id' => 'largeImage')) ?></li>
- 		    <li><?= Asset::img("projects/{$project->id}/2.png", array('id' => 'largeImage')) ?></li>
-  			<li><?= Asset::img("projects/{$project->id}/3.png", array('id' => 'largeImage')) ?></li>
-  			<li><?= Asset::img("projects/{$project->id}/4.png", array('id' => 'largeImage')) ?></li>
-  			<li><?= Asset::img("projects/{$project->id}/5.png", array('id' => 'largeImage')) ?></li>
   			<?php
-
   				$n = $project->photo_count; 
 
-  				for ($i=0; $i <= $n ; $i++) { 
-  					# code...
+  				for ($i=1; $i <= $n ; $i++) { 
+  					echo '<li>'. Asset::img("projects/{$project->id}/$i.png", array('id' => 'largeImage')).'</li>';
   				}
   			?>
 		</ul>

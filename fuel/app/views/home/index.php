@@ -5,6 +5,7 @@
 	<?php foreach($projects as $project) : ?>
 		<div class="box">
 			<?= $project->title ?>
+			<?= Asset::img("projects/{$project->id}/thumb.png", array('id' => 'largeImage')) ?>
 			<?= Html::anchor("projects/{$project->title}", 'Details', array('class' => 'detail_button')) ?>
 		</div>
 	<?php endforeach ?>
