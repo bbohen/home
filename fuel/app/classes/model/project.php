@@ -20,8 +20,8 @@ class Model_Project extends \Orm\Model
 		return static::query()->get();
 	}
 
-	public static function get_project($title)
+	public static function get_project($id)
 	{
-		return static::find()->where('title', $title)->get_one();
+		return static::find()->where('id', $id)->get_one();
 	}
 }

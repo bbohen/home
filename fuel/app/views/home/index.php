@@ -8,10 +8,10 @@
 		<ul>
 	</div>
 	<?php foreach($projects as $project) : ?>
-		<a href="projects/<?= $project->title ?>" >
+		<a href="projects/<?= $project->id ?>" >
 		<div class="box">
 			<?= Asset::img("projects/{$project->id}/thumb.png", array('class' => 'thumb')) ?>
-			<?= Html::anchor("projects/{$project->title}", $project->title, array('class' => 'detail_button')) ?>
+			<?= Html::anchor("projects/{$project->id}", $project->title, array('class' => 'detail_button')) ?>
 		</div>
 		</a>
 	<?php endforeach ?>
