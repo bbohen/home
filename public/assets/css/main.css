@@ -344,7 +344,7 @@ h2 img{
    }
 }
 
-@media only screen and (max-width: 740px) {
+@media all and (max-width: 740px) {
    .wrapper, .nav_wrapper{
 		width: 100%;
 	}
@@ -368,6 +368,8 @@ h2 img{
 		width: 100%;
 	}
 }
+
+
 
 
 /* Construction Page Specific -MOVE ME LATER- */
