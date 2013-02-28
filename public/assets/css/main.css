@@ -369,7 +369,32 @@ h2 img{
 	}
 }
 
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+    .wrapper, .nav_wrapper{
+		width: 100%;
+	}
 
+	.text_box{
+		width: 94%;
+		height: auto;
+	}
+
+	.box{
+		width: 46%;
+		margin-right: 10px;
+	}
+
+	.box img{
+		margin-left: 12%;
+		width: 85%;
+	}
+
+	.detail_button{
+		width: 100%;
+	}
+}
 
 
 /* Construction Page Specific -MOVE ME LATER- */
