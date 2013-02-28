@@ -4,6 +4,7 @@ class Controller_Home extends Controller_App
 {
 	public function action_index()
 	{
+		$this->template->title = 'Brad Bohen';
 		$this->template->content = View::forge('home/index', array(
 			'projects' => Model_Project::get_projects()
 		));
