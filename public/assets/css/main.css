@@ -384,14 +384,19 @@ and (max-device-width: 480px) {
 		width: 100%;
 	}
 
+	h1{
+		font-size: 2em;
+	}
+
 	.text_box{
 		width: 94%;
 		height: auto;
-		font-size: 1.5em;
+		font-size: 1.8em;
 	}
 
 	.box{
 		width: 46%;
+		height: 50%;
 		margin-right: 10px;
 		-webkit-filter: grayscale(0%);
 		-moz-filter: grayscale(0%);	
