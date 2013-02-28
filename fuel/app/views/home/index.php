@@ -1,6 +1,6 @@
 <div class="wrapper">
 	<div class="text_box">
-		<p>Hello there, my name is Brad Bohen. <br/> I develop and design usable, attractive web products and user experiences for the web. Please click around and check out my different projects, I will be continually updating these as I revisit past work.
+		<p>Hello there, my name is Brad Bohen. <br/> I develop and design usable, attractive websites, apps and user experiences for the web. Please click around and check out my different projects, I will be continually updating these as I revisit past work.
 		</p>
 		<ul>
 			<li>Send me an <a href="mailto:bbohen@gmail.com">Email</a></li>
