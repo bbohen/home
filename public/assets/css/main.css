@@ -386,7 +386,7 @@ and (max-device-width: 480px) {
 	}
 
 	h1{
-		font-size: 4em;
+		font-size: 5em;
 		margin-left: 2%;
 	}
 
@@ -419,6 +419,25 @@ and (max-device-width: 480px) {
 		font-size: 2em;
 		display: block;
 		opacity: 1 !important;
+	}
+
+	/* Details */
+
+	h2{
+		font-size: 3em;
+	}
+
+	.section, .side_section{
+		float: none;
+		font-size: 2.8em;
+	}
+
+	.section h3, .side_section h3{
+		font-size: 1.3em;
+	}
+
+	.section, .side_section{
+		width: 100%;
 	}
 }
 
