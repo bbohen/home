@@ -344,7 +344,7 @@ h2 img{
    }
 }
 
-@media all and (max-width: 740px) {
+@media only screen and (max-width: 740px) {
    .wrapper, .nav_wrapper{
 		width: 100%;
 	}
@@ -361,6 +361,7 @@ h2 img{
 
 	.box img{
 		margin-left: 12%;
+		width: 85%;
 	}
 
 	.detail_button{
