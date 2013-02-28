@@ -387,6 +387,7 @@ and (max-device-width: 480px) {
 	.text_box{
 		width: 94%;
 		height: auto;
+		font-size: 1.5em;
 	}
 
 	.box{
