@@ -396,7 +396,7 @@ and (max-device-width: 480px) {
 
 	.box{
 		width: 46%;
-		height: 50%;
+		height: 80%;
 		margin-right: 10px;
 		-webkit-filter: grayscale(0%);
 		-moz-filter: grayscale(0%);	
