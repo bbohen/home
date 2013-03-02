@@ -147,6 +147,7 @@ h3{
 	-moz-filter: grayscale(100%);	
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
+	-webkit-backface-visibility: hidden;
 }
 
 .box, .detail_button{
@@ -157,7 +158,7 @@ h3{
 }
 
 .box:hover{
-	-webkit-filter: grayscale(0%);
+	-webkit-filter: grayscale(1%);
 	-moz-filter: grayscale(0%);	
 	-ms-filter: grayscale(0%);
 	-o-filter: grayscale(0%);
